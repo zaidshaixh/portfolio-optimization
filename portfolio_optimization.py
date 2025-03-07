@@ -4,7 +4,7 @@ import pandas as pd
 # ✅ CSV File Path
 csv_file_path = "C:\\Users\\Preeti\\Documents\\portfolio_results.csv"  # Change path if needed
 
-# ✅ Sample DataFrame (Agar CSV File Nahi Hai To Sample Data Banayenge)
+# ✅ Sample DataFrame 
 if not os.path.exists(csv_file_path):
     sample_data = {"Stock": ["AAPL", "MSFT", "GOOGL"], "Return": [0.12, 0.15, 0.18], "Risk": [0.05, 0.07, 0.09]}
     df = pd.DataFrame(sample_data)
